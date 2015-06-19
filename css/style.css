@@ -1,0 +1,54 @@
+.main-container{
+	background-color: #F0F0F0;	
+	padding: 0 0 10px !important;
+}
+.header-section{
+	border: 20px solid #E2E2E2;
+	border-bottom: 0;
+	padding: 20px;
+}
+.main-heading{
+	font-size: 25px;
+	font-weight: bold;
+}
+.version{
+	font-weight: lighter;
+}
+.content-section{
+	width: 100%;
+	padding: 0 20px;
+}
+.task-form-section,.task-list-section{
+	width: calc(50% - 3px);
+	float: left;
+	background-color: #FFF;
+	padding: 20px;
+}
+.task-list-section{
+	margin-left:6px;
+}
+.create-task-heading,.existing-task-heading{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+tr td:first-child,
+tr td:last-child {
+    font-weight: bold;
+}
+.table-section{
+	border: 3px solid #E2E2E2;
+	border-radius: 5px;
+	padding: 5px;
+}
+.task-table td{
+	border: none !important;
+}
+.submit-button,.submit-button:hover,.submit-button:focus{
+	background-color: #434343;
+	color: #FFF;
+	padding: 15px 25px ;
+}
+input{
+	background-color: #CCC !important;
+}
